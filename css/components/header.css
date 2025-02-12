@@ -48,6 +48,56 @@ header .header_right .header_image .background{
     z-index: -1;
 }
 
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.toggle-label img {
+    width: 24px; /* Ajuste o tamanho conforme necessário */
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.toggle-switch {
+    width: 50px;
+    height: 25px;
+    background: #ccc;
+    border-radius: 15px;
+    position: relative;
+    transition: background 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.toggle-slider {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    transition: left 0.3s ease, background 0.3s ease;
+}
+
+.toggle-switch.active {
+    background: #4CAF50;
+}
+
+.toggle-switch.active .toggle-slider {
+    left: 25px;
+    background: #fff;
+}
+
+
+
 @media only screen and (max-width: 768px){
     header {
         flex-direction: column-reverse;
