@@ -74,6 +74,9 @@ document.addEventListener("DOMContentLoaded", function () {
         document.querySelector(".projects li:nth-of-type(1) .projects_info h3").textContent = translations[language]["tomatos_titulo"];
         document.querySelector(".projects li:nth-of-type(1) .projects_info p").textContent = translations[language]["tomatos_desc"];
 
+        document.querySelector(".projects li:nth-of-type(2) .projects_info h3").textContent = translations[language]["chatbot_titulo"];
+        document.querySelector(".projects li:nth-of-type(2) .projects_info p").textContent = translations[language]["chatbot_desc"];
+
         document.querySelector(".projects li:nth-of-type(3) .projects_info h3").textContent = translations[language]["gustaflix_titulo"];
         document.querySelector(".projects li:nth-of-type(3) .projects_info p").textContent = translations[language]["gustaflix_desc"];
 
