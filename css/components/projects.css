@@ -51,6 +51,24 @@
 }
 .bento-grid-container .project-card:hover { transform: scale(1.03); }
 
+
+/* --- CÓDIGO NOVO ADICIONADO --- */
+/* 4.1 - Estilo Específico para Centralizar Logos */
+.project-card.center-logo {
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff; /* Garante o fundo branco para a logo */
+}
+
+.project-card.center-logo img {
+    width: 90%;
+    height: auto;
+    object-fit: contain; /* Garante que a logo inteira apareça sem cortar */
+}
+/* --- FIM DO CÓDIGO NOVO --- */
+
+
 /* 5. Camada de Informações (com sua paleta) */
 .bento-grid-container .project-card .project-layer {
     position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;
@@ -60,7 +78,7 @@
 }
 .bento-grid-container .project-card:hover .project-layer { transform: translateY(0); }
 .project-layer h4 { font-size: 1.8rem; color: var(--white); }
-.project-layer p { font-size: 1rem; margin: 0.3rem 0 1rem; color: var(--gray); }
+.project-layer p { font-size: 1.5rem; margin: 0.3rem 0 1rem; color: var(--gray); }
 .project-layer a { display: inline-flex; justify-content: center; align-items: center; width: 3.5rem; height: 3.5rem; background: var(--white); border-radius: 50%; }
 .project-layer a i { font-size: 2rem; color: #333; }
 
