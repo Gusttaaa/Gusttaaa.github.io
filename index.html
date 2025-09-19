@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/extends.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -68,7 +69,7 @@
         </div>
     </header>
 
-    <section id="about" class="about max-width">
+    <section id="about" data-aos="fade-up" class="about max-width">
         <div class="about_left">
             <h2 class="secondary-title">Além do código: Quem sou eu?</h2>
             <p>Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre o meu trabalho?</p>
@@ -96,7 +97,7 @@
     </section>
 
     <section id="skills" class="skills">
-        <div class="skills_content max-width">
+        <div class="skills_content max-width" data-aos="zoom-in">
             <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
             <p class="description">
                 Descubra as habilidades e ferramentas que domino e que me permitem 
@@ -139,55 +140,58 @@
 
     </section>
 
-    <section id="projects" class="projects max-width">
-        <div class="projects_content">
-            <h2 class="secondary-title">Projetos em Destaque</h2>
-            <p>
-                De ideias abstratas a projetos bem sucedidos, aqui estão alguns dos meus trabalhos mais recentes
-            </p>
+<section id="projects" class="projects">
+    <h2 class="heading" data-aos="fade-up">Meus <span>Projetos</span></h2>
+
+    <div class="bento-grid-container">
+        
+        <div class="project-card featured" data-aos="fade-up">
+            <img src="assets/chatbot-n8n.png" alt="Projeto Chatbot Imobiliária com n8n">
+            <div class="project-layer">
+                <h4>Chatbot Imobiliária (n8n)</h4>
+                <p>Descrição do seu projeto de automação com n8n para o setor imobiliário.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
         </div>
 
-        <ul>
-            <li>
-                <div class="image">
-                    <img src="assets/tomatos.png" alt="Gerenciamento de Tarefas">
-                </div>
-                <div class="projects_info">
-                    <h3 class="tertiary-title">Tomatos Meta-Verso</h3>
-                <p>O projeto "Tomatos Metaverso" representa uma iniciativa inovadora e envolvente desenvolvida pela nossa startup, focada em proporcionar uma experiência única de roleplay no universo do Grand Theft Auto V (GTA V). 
-                    Este servidor de roleplay foi concebido para oferecer aos jogadores uma imersão profunda em um ambiente virtual dinâmico e realista.
-                </p>
-                <a href="#">Leia mais &rarr;</a>
-                </div>
-            </li>
+        <div class="project-card small-1" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/gustaflix.png" alt="Projeto Gustaflix">
+            <div class="project-layer">
+                <h4>Gustaflix</h4>
+                 <p>Descrição do seu projeto Gustaflix.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
 
-            <li class="projects_reversed-list">
-                <div class="image">
-                    <img src="assets/ecommerce.png" alt="SCO">
-                </div>
-                <div class="projects_info">
-                    <h3 class="tertiary-title">ChatBot Imobiliária</h3>
-                <p> Este projeto é uma solução de automação ponta-a-ponta construída com N8N. Utilizando um agente de IA, o chatbot acessa um banco de dados para realizar consultas dinâmicas sobre imóveis e, através da integração com APIs, executa um fluxo completo de agendamento. A automação inclui a criação de eventos no Google Agenda e o envio de mensagens de confirmação via WhatsApp, demonstrando a capacidade de orquestrar diferentes sistemas para criar uma aplicação funcional e robusta.
-                </p>
-                <a href="#">Leia mais &rarr;</a>
-                </div>
-            </li>
+        <div class="project-card small-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/tomatos.png" alt="Projeto Tomatos Meta-verso">
+            <div class="project-layer">
+                <h4>Tomatos Meta-verso</h4>
+                <p>Descrição do seu projeto Tomatos Meta-verso.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
 
-            <li>
-                <div class="image">
-                    <img src="assets/gustaflix.png" alt="GustaFlix">
-                </div>
-                <div class="projects_info">
-                    <h3 class="tertiary-title">GustaFlix</h3>
-                <p>Um projeto de catálogo de filmes! <br/>Nele você consegue salvar, ver os detalhes e excluir o filme!
-                    Feito com ReactJS!
-                </p>
-                <a href="https://gustaflix.netlify.app">Leia mais &rarr;</a>
-                </div>
-            </li>
-        </ul>
+        <div class="project-card small-3" data-aos="fade-up" data-aos-delay="100">
+             <img src="assets/placeholder1.png" alt="Outro Projeto">
+            <div class="project-layer">
+                <h4>Seu Quarto Projeto</h4>
+                <p>Descrição de outro projeto que você tenha.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
 
-    </section>
+        <div class="project-card small-4" data-aos="fade-up" data-aos-delay="200">
+             <img src="assets/placeholder2.png" alt="Futuro Projeto">
+            <div class="project-layer">
+                <h4>Futuro Projeto</h4>
+                <p>Espaço reservado para um novo projeto incrível.</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        
+    </div>
+</section>
     
     <footer id="footer">
         <div class="footer_content max-width mb-0">
@@ -213,8 +217,9 @@
     </footer>
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/index.js"></script>
     <script src="scripts/translations.js"></script>
+    
 </body>
 </html>

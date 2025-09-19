@@ -1,3 +1,4 @@
+AOS.init();
 const navbar = document.querySelector('.navbar');
 const mobileNavbar = document.querySelector('.navbar_mobile');
 const button = document.querySelector('.burguer');
