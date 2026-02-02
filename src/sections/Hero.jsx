@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/Button";
+import { Button } from "@/components/ui/button";
 import { ArrowRight, Download, ChevronDown, Github, Instagram, Linkedin, Twitter } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
