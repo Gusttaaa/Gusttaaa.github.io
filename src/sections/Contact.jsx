@@ -1,6 +1,6 @@
 
 import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 
