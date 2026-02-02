@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 
 const testimonials = [
     {
-        quote: "Very good, pretty impressive codes and solving problems quickly.",
-        author: "Victor Veom",
-        role: "CTO, at Ninja Studios",
+        quote: "",
+        author: "",
+        role: "",
     },
     {
         quote: "",
