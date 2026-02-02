@@ -5,7 +5,8 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react({babel: {plugins: ['babel-plugin-react-compiler'],},}), tailwindcss()],
+  plugins: [react(), tailwindcss()],
+  base: '/',
 
   resolve: {
     alias: {
