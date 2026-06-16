@@ -23,7 +23,7 @@ jobs:
 
       - name: Instalar Dependências e Build 🏗️
         run: |
-          npm ci
+          npm install
           npm run build
 
       - name: Deploy para a branch gh-pages 🚀
