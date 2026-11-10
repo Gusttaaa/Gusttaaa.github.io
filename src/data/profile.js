@@ -44,12 +44,12 @@ export const experience = [
         points: {
           pt: [
             "Estruturei do zero a arquitetura do CRM central e da VMB Plataforma, a partir das regras de negócio da corretora.",
-            "Automatizei o fluxo de lances de consórcio, eliminando cerca de 8 horas semanais de trabalho manual do backoffice (mais de 30 horas por mês).",
+            "Automatizei o fluxo de lances de consórcio, eliminando cerca de 16 horas semanais de trabalho manual do backoffice (mais de 30 horas por mês).",
             "Desenvolvi três sistemas internos (portal, sistema operacional e dashboard de assessores) que automatizaram rotinas diárias do backoffice, como a agenda dos closers e o registro de vendas.",
           ],
           en: [
             "Designed from scratch the architecture of the central CRM and the VMB Plataforma, based on the brokerage's business rules.",
-            "Automated the consortium bid workflow, eliminating about 8 hours of manual back-office work per week (over 30 hours per month).",
+            "Automated the consortium bid workflow, eliminating about 16 hours of manual back-office work per week (over 30 hours per month).",
             "Built three internal systems (portal, operations system and advisor dashboard) that automated daily back-office routines, such as scheduling the closers' agenda and logging every sale.",
           ],
         },

@@ -38,14 +38,14 @@ export const projects = [
     points: {
       pt: [
         "Estruturei do zero a arquitetura do CRM central e da VMB Plataforma, a partir das regras de negócio da corretora.",
-        "Automatizei o fluxo de lances de consórcio e eliminei cerca de 8 horas semanais de trabalho manual do backoffice (mais de 30 horas por mês).",
+        "Automatizei o fluxo de lances de consórcio e eliminei cerca de 16 horas semanais de trabalho manual do backoffice (mais de 30 horas por mês).",
         "Desenvolvi três sistemas internos (portal, sistema operacional e dashboard de assessores) que automatizaram rotinas diárias, como a agenda dos closers e o registro de vendas.",
         "Conduzi a migração dos sistemas internos para uma aplicação única em TypeScript (Next.js + PostgreSQL/Supabase), em fases, sem interromper a operação.",
         "Lidero 6 devs juniores e estagiários, com code review e definição de padrões.",
       ],
       en: [
         "Designed the architecture of the central CRM and the VMB Plataforma from scratch, based on the brokerage's business rules.",
-        "Automated the consortium bid workflow, removing about 8 hours of manual back-office work per week (over 30 hours per month).",
+        "Automated the consortium bid workflow, removing about 16 hours of manual back-office work per week (over 30 hours per month).",
         "Built three internal systems (portal, operations system and advisor dashboard) that automated daily routines, such as scheduling the closers' agenda and logging every sale.",
         "Led the migration of internal systems into a single TypeScript application (Next.js + PostgreSQL/Supabase), in phases, with no disruption to operations.",
         "Lead 6 junior developers and interns, running code reviews and setting engineering standards.",
@@ -54,12 +54,12 @@ export const projects = [
     highlights: {
       pt: [
         "Arquitetura do CRM e da plataforma, do zero",
-        "Cerca de 8 h por semana de trabalho manual eliminadas",
+        "Cerca de 16 h por semana de trabalho manual eliminadas",
         "Time de 6 devs sob minha liderança",
       ],
       en: [
         "CRM and platform architecture, from scratch",
-        "About 8 hours of manual work removed per week",
+        "About 16 hours of manual work removed per week",
         "A team of 6 developers under my lead",
       ],
     },

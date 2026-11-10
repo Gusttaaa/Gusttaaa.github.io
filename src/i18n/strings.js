@@ -38,7 +38,7 @@ export const strings = {
       lead: "Sou desenvolvedor full stack no Rio de Janeiro e Tech Lead na VMB Invest. Estruturei do zero o CRM central e a plataforma interna da corretora e hoje lidero o time de 6 devs que cuida deles. Também construo automações com IA e produtos web para quem quer tirar trabalho manual da operação.",
       stats: [
         { value: 6, label: "devs no time que lidero na VMB Invest" },
-        { value: 8, prefix: "~", suffix: " h", label: "de trabalho manual eliminadas por semana no backoffice" },
+        { value: 16, prefix: "~", suffix: " h", label: "de trabalho manual eliminadas por semana no backoffice" },
         { value: 3, label: "sistemas internos que automatizam rotinas da operação" },
       ],
       more: "Antes da VMB passei por game dev, programando sistemas de gameplay em Verse (UE5) e em Lua (FiveM). Falo inglês avançado e já trabalhei nos Estados Unidos. Fora do código, treino Muay Thai e jogo FPS competitivo.",
