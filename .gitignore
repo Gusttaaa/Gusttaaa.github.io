@@ -25,3 +25,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Capturas de revisão de design (geradas localmente)
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/questions/

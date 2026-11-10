@@ -1,63 +1,69 @@
-import { Github, Linkedin, Instagram, Heart } from "lucide-react";
+import { ArrowUp } from "lucide-react";
+import { Link } from "react-router-dom";
+import { contact, cv } from "@/data/profile";
+import { pick, useLang } from "@/i18n/lang";
 
-const socialLinks = [
-    {icon: Github, href: "https://github.com/Gusttaaa", label: "GitHub"},
-    {icon: Linkedin, href: "https://www.linkedin.com/in/gustavo-fontenelle-belmiro-77b331260/", label: "LinkedIn"},
-    {icon: Instagram, href: "https://www.instagram.com/g.fontenellee/", label: "Instagram"},
-];
+export function Footer() {
+  const { lang, t, to } = useLang();
+  const year = new Date().getFullYear();
 
-const footerLinks = [
-  { href: "#about", label: "About" },
-  { href: "#projects", label: "Projects" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
-];
-
-export const Footer = () => {
-  const currentYear = new Date().getFullYear();
+  const pages = [
+    { to: to("/#about"), label: t.nav.about },
+    { to: to("/projects"), label: t.nav.projects },
+    { to: to("/#experience"), label: t.nav.experience },
+    { to: to("/#contact"), label: t.nav.contact },
+  ];
+  const socials = [
+    { href: contact.linkedin, label: "LinkedIn" },
+    { href: contact.github, label: "GitHub" },
+    { href: contact.instagram, label: "Instagram" },
+  ];
 
   return (
-    <footer className="py-12 border-t border-border">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          {/* Logo & Copyright */}
-          <div className="text-center md:text-left">
-            <a href="#" className="text-xl font-bold tracking-tight">
-              GFB<span className="text-primary">.</span>
+    <footer className="foot">
+      <div className="wrap foot-in">
+        <div className="foot-id">
+          <p className="brand">Gustavo Fontenelle</p>
+          <p>{pick(contact.location, lang)}</p>
+          <p>
+            <a href={`mailto:${contact.email}`}>{contact.email}</a>
+          </p>
+        </div>
+
+        <nav className="foot-list" aria-label={t.nav.label}>
+          {pages.map((page) => (
+            <Link key={page.to} to={page.to}>
+              {page.label}
+            </Link>
+          ))}
+        </nav>
+
+        <ul className="foot-list">
+          {socials.map((social) => (
+            <li key={social.label}>
+              <a href={social.href} target="_blank" rel="noreferrer">
+                {social.label}
+                <span className="sr-only"> ({t.footer.external})</span>
+              </a>
+            </li>
+          ))}
+          <li>
+            <a href={cv[lang]} download>
+              {t.nav.cvLong}
             </a>
-            <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Gustavo Fontenelle Belmiro. All rights reserved.
-            </p>
-          </div>
+          </li>
+        </ul>
 
-          {/* Links */}
-          <nav className="flex flex-wrap justify-center gap-6">
-            {footerLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
-          </nav>
-
-          {/* Social Links */}
-          <div className="flex items-center gap-4">
-            {socialLinks.map((social) => (
-              <a
-                key={social.label}
-                href={social.href}
-                aria-label={social.label}
-                className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
-              >
-                <social.icon className="w-5 h-5" />
-              </a>
-            ))}
-          </div>
+        <div className="foot-end">
+          <a className="foot-top" href="#top">
+            <ArrowUp aria-hidden="true" />
+            {t.footer.top}
+          </a>
+          <p>
+            © {year} {t.footer.rights}
+          </p>
         </div>
       </div>
     </footer>
   );
-};
+}

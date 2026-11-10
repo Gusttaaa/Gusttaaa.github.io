@@ -1,16 +1,74 @@
-# React + Vite
+# Portfólio de Gustavo Fontenelle Belmiro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site pessoal publicado em https://gusttaaa.github.io/. Fundo preto, tipografia leve e uma cena 3D na página inicial: um anel de telas dos projetos gira em volta do retrato, e a câmera muda de posição conforme a página rola.
 
-Currently, two official plugins are available:
+Feito com React 19, Vite, Tailwind CSS v4, react-router e three.js.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Rodar no computador
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O site abre em http://localhost:5173.
 
-## Expanding the ESLint configuration
+## Publicar
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Todo push na branch `main` publica o site pelo GitHub Actions (`.github/workflows/deploy.yml`).
+
+### Formulário de contato
+
+O formulário envia pelo [EmailJS](https://www.emailjs.com/). As três chaves precisam estar cadastradas no repositório, em **Settings > Secrets and variables > Actions**:
+
+- `VITE_EMAILJS_SERVICE_ID`
+- `VITE_EMAILJS_TEMPLATE_ID`
+- `VITE_EMAILJS_PUBLIC_KEY`
+
+O template do EmailJS recebe os campos `name`, `email` e `message`.
+
+Para testar o envio no computador, crie um arquivo `.env` na raiz com as mesmas três chaves. Sem elas, o formulário avisa que não conseguiu enviar e oferece um link que abre o e-mail com a mensagem pronta.
+
+## Onde mexer
+
+| Para mudar | Arquivo |
+| --- | --- |
+| Projetos (textos, imagens, links, ordem) | `src/data/projects.js` |
+| Experiência, competências, contatos e currículos | `src/data/profile.js` |
+| Textos da interface em PT e EN | `src/i18n/strings.js` |
+| Cores, fontes e animações | `src/index.css` |
+| Cena 3D (anel de telas, poses da câmera) | `src/scene/orbitScene.js` |
+| Imagens dos projetos | `public/work/` |
+| Telas que giram no anel 3D | `public/tiles/` |
+| Foto do topo | `public/gustavo.webp` |
+| Currículos em PDF | `public/cv/` |
+
+Todo texto existe em português e em inglês. Ao adicionar um projeto, preencha os dois idiomas.
+
+### Adicionar um projeto
+
+1. Coloque a imagem em `public/work/` (de preferência em WebP).
+2. Copie um dos objetos de `src/data/projects.js` e ajuste os campos.
+3. `featured: true` faz o projeto aparecer na seção de destaque da página inicial.
+4. `status` aceita `live` (com link público), `internal`, `shipped` ou `video`.
+5. `media.shot` define como a câmera percorre a imagem na página do projeto: `push` (aproxima), `crane` (desce por uma página alta) ou `truck` (percorre uma imagem larga).
+6. Para o projeto aparecer no anel 3D, salve um recorte 800x500 da imagem em `public/tiles/<slug>.webp` e inclua o slug na lista de `src/components/OrbitStage.jsx`.
+
+### Trocar a foto
+
+A foto do topo é `public/gustavo.webp`: um recorte com fundo transparente, em pé (proporção 276:718). Para trocar, salve outra imagem com o mesmo nome e a mesma proporção. Se a proporção mudar, ajuste `FIGURE.ratio` em `src/scene/orbitScene.js`.
+
+## Idiomas e endereços
+
+- Português: `/`, `/projects`, `/projects/<slug>`
+- Inglês: `/en`, `/en/projects`, `/en/projects/<slug>`
+
+Na primeira visita, quem usa o navegador em outro idioma é levado para a versão em inglês. Depois disso vale a escolha feita no botão PT/EN.
+
+O GitHub Pages não tem reescrita de rotas, então o build copia `index.html` para `404.html`. É isso que faz um link direto como `/projects/somnia-arcana` abrir.
+
+## Acessibilidade e movimento
+
+As animações (cena 3D no scroll, entradas, troca de página) só rodam quando o sistema não pede movimento reduzido. Com `prefers-reduced-motion` ativado, a cena fica parada no topo e o conteúdo aparece direto e completo.
+
+O three.js é baixado em um arquivo separado, depois que a página já abriu. Em navegadores sem WebGL, o retrato entra como imagem comum.

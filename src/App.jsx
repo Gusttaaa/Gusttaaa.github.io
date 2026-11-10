@@ -1,46 +1,28 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Hero } from "@/sections/Hero";
-import { Navbar } from "@/layout/Navbar";
-import { About } from "@/sections/About";
-import { Projects, HOME_PROJECTS_LIMIT } from "@/sections/Projects";
-import { Experience } from "@/sections/Experience";
-import { Testimonials } from "@/sections/Testimonials";
-import { Contact } from "@/sections/Contact";
-import { Footer } from "@/layout/Footer";
-import { ProjectsPage } from "@/projects/ProjectsPage";
-import { ScrollToHash } from "@/components/ScrollToHash";
-import { ScrollToTop } from "@/components/ScrollToTop";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Layout } from "@/layout/Layout";
+import { Home } from "@/pages/Home";
+import { NotFound } from "@/pages/NotFound";
+import { ProjectPage } from "@/pages/ProjectPage";
+import { ProjectsPage } from "@/pages/ProjectsPage";
 
-function Home() {
-  return (
-    <>
-      <Hero />
-      <About />
-      <Projects maxItems={HOME_PROJECTS_LIMIT} />
-      <Experience />
-      <Testimonials />
-      <Contact />
-    </>
-  );
+/**
+ * Uma única árvore de rotas atende os dois idiomas: "/en" é um segmento
+ * opcional. Assim, trocar de idioma mantém a página montada e as paletas
+ * viram no lugar, em vez de a página recarregar.
+ */
+const router = createBrowserRouter([
+  {
+    path: "/en?",
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "projects", element: <ProjectsPage /> },
+      { path: "projects/:slug", element: <ProjectPage /> },
+      { path: "*", element: <NotFound /> },
+    ],
+  },
+]);
+
+export default function App() {
+  return <RouterProvider router={router} />;
 }
-
-function App() {
-  return (
-    <BrowserRouter>
-      <ScrollToTop />
-      <ScrollToHash />
-      <div className="min-h-screen overflow-x-hidden">
-        <Navbar />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </BrowserRouter>
-  );
-}
-
-export default App;

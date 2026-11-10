@@ -22,6 +22,13 @@ jobs:
           cache: 'npm'
 
       - name: Instalar Dependências e Build 🏗️
+        # As chaves do EmailJS entram no build por aqui. Cadastre as três em
+        # Settings > Secrets and variables > Actions. Sem elas o formulário de
+        # contato não envia e oferece o envio por e-mail no lugar.
+        env:
+          VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
+          VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
+          VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}
         run: |
           npm install
           npm run build

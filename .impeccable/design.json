@@ -1,0 +1,640 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T18:02:30.330Z",
+  "title": "Design System: Gustavo Fontenelle Belmiro, Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "live": {
+        "role": "primary",
+        "displayName": "Live Green",
+        "canonical": "#4ade80",
+        "tonalRamp": [
+          "oklch(15% 0.19 150)",
+          "oklch(26% 0.19 150)",
+          "oklch(38% 0.19 150)",
+          "oklch(50% 0.19 150)",
+          "oklch(62% 0.19 150)",
+          "oklch(74% 0.19 150)",
+          "oklch(85% 0.19 150)",
+          "oklch(95% 0.19 150)"
+        ]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "#050607",
+        "tonalRamp": [
+          "oklch(15% 0.004 240)",
+          "oklch(26% 0.004 240)",
+          "oklch(38% 0.004 240)",
+          "oklch(50% 0.004 240)",
+          "oklch(62% 0.004 240)",
+          "oklch(74% 0.004 240)",
+          "oklch(85% 0.004 240)",
+          "oklch(95% 0.004 240)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Panel",
+        "canonical": "#0d0f10",
+        "tonalRamp": [
+          "oklch(15% 0.004 225)",
+          "oklch(26% 0.004 225)",
+          "oklch(38% 0.004 225)",
+          "oklch(50% 0.004 225)",
+          "oklch(62% 0.004 225)",
+          "oklch(74% 0.004 225)",
+          "oklch(85% 0.004 225)",
+          "oklch(95% 0.004 225)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgb(255 255 255 / 0.1)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(62% 0 0)",
+          "oklch(74% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "line-2": {
+        "role": "neutral",
+        "displayName": "Divider",
+        "canonical": "rgb(255 255 255 / 0.2)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(62% 0 0)",
+          "oklch(74% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "fg": {
+        "role": "neutral",
+        "displayName": "Foreground",
+        "canonical": "#f1f4f5",
+        "tonalRamp": [
+          "oklch(15% 0.004 220)",
+          "oklch(26% 0.004 220)",
+          "oklch(38% 0.004 220)",
+          "oklch(50% 0.004 220)",
+          "oklch(62% 0.004 220)",
+          "oklch(74% 0.004 220)",
+          "oklch(85% 0.004 220)",
+          "oklch(95% 0.004 220)"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Text",
+        "canonical": "#c9d0d3",
+        "tonalRamp": [
+          "oklch(15% 0.008 220)",
+          "oklch(26% 0.008 220)",
+          "oklch(38% 0.008 220)",
+          "oklch(50% 0.008 220)",
+          "oklch(62% 0.008 220)",
+          "oklch(74% 0.008 220)",
+          "oklch(85% 0.008 220)",
+          "oklch(95% 0.008 220)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#8f989d",
+        "tonalRamp": [
+          "oklch(15% 0.012 230)",
+          "oklch(26% 0.012 230)",
+          "oklch(38% 0.012 230)",
+          "oklch(50% 0.012 230)",
+          "oklch(62% 0.012 230)",
+          "oklch(74% 0.012 230)",
+          "oklch(85% 0.012 230)",
+          "oklch(95% 0.012 230)"
+        ]
+      },
+      "placeholder": {
+        "role": "neutral",
+        "displayName": "Placeholder",
+        "canonical": "#7f888d",
+        "tonalRamp": [
+          "oklch(15% 0.012 228)",
+          "oklch(26% 0.012 228)",
+          "oklch(38% 0.012 228)",
+          "oklch(50% 0.012 228)",
+          "oklch(62% 0.012 228)",
+          "oklch(74% 0.012 228)",
+          "oklch(85% 0.012 228)",
+          "oklch(95% 0.012 228)"
+        ]
+      },
+      "scrollbar-thumb": {
+        "role": "neutral",
+        "displayName": "Scrollbar Thumb",
+        "canonical": "#2b3033",
+        "tonalRamp": [
+          "oklch(15% 0.008 222)",
+          "oklch(26% 0.008 222)",
+          "oklch(38% 0.008 222)",
+          "oklch(50% 0.008 222)",
+          "oklch(62% 0.008 222)",
+          "oklch(74% 0.008 222)",
+          "oklch(85% 0.008 222)",
+          "oklch(95% 0.008 222)"
+        ]
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "Hover White",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(62% 0 0)",
+          "oklch(74% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "image-well": {
+        "role": "neutral",
+        "displayName": "Image Well",
+        "canonical": "#000",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(62% 0 0)",
+          "oklch(74% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "card-shadow": {
+        "role": "neutral",
+        "displayName": "Card Shadow",
+        "canonical": "rgb(0 0 0 / 0.9)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(62% 0 0)",
+          "oklch(74% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "top-scrim": {
+        "role": "neutral",
+        "displayName": "Top Scrim",
+        "canonical": "rgb(5 6 7 / 0.7)",
+        "tonalRamp": [
+          "oklch(15% 0.004 240)",
+          "oklch(26% 0.004 240)",
+          "oklch(38% 0.004 240)",
+          "oklch(50% 0.004 240)",
+          "oklch(62% 0.004 240)",
+          "oklch(74% 0.004 240)",
+          "oklch(85% 0.004 240)",
+          "oklch(95% 0.004 240)"
+        ]
+      },
+      "error": {
+        "role": "tertiary",
+        "displayName": "Error Salmon",
+        "canonical": "#ff9a8f",
+        "tonalRamp": [
+          "oklch(15% 0.13 25)",
+          "oklch(26% 0.13 25)",
+          "oklch(38% 0.13 25)",
+          "oklch(50% 0.13 25)",
+          "oklch(62% 0.13 25)",
+          "oklch(74% 0.13 25)",
+          "oklch(85% 0.13 25)",
+          "oklch(95% 0.13 25)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "hero-title": {
+        "displayName": "Hero title",
+        "purpose": "The three-line name and role at the bottom left of the home hero."
+      },
+      "hero-title-stacked": {
+        "displayName": "Hero title (stacked)",
+        "purpose": "The hero title in the single-column layout."
+      },
+      "page-title": {
+        "displayName": "Page title",
+        "purpose": "The h1 of the projects index, a case page and the 404."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "The contact section's heading."
+      },
+      "stat": {
+        "displayName": "Stat",
+        "purpose": "The three résumé numbers in About, tabular figures."
+      },
+      "service-tab": {
+        "displayName": "Service tab",
+        "purpose": "The three service names, which are tabs."
+      },
+      "next-title": {
+        "displayName": "Next title",
+        "purpose": "The next-project link at the foot of a case page."
+      },
+      "sent-title": {
+        "displayName": "Sent title",
+        "purpose": "The contact form's confirmation."
+      },
+      "card-title": {
+        "displayName": "Card title",
+        "purpose": "Project names on cards."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "The About paragraph that lights word by word."
+      },
+      "row-title": {
+        "displayName": "Row title",
+        "purpose": "A role in the experience list."
+      },
+      "point": {
+        "displayName": "Point",
+        "purpose": "Ruled list items on a case page."
+      },
+      "page-intro": {
+        "displayName": "Page intro",
+        "purpose": "The sentence under a page title."
+      },
+      "intro": {
+        "displayName": "Intro",
+        "purpose": "Service description and contact introduction, in Foreground."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "The hero sentence; field text uses the same size."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Pills, chips, captions, field errors, secondary lines, the footer."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "The owner's name in the top bar; 1.0625rem in the stacked layout and the footer."
+      },
+      "menu-link": {
+        "displayName": "Menu link",
+        "purpose": "Links inside the open mobile menu, uppercase."
+      },
+      "nav-link": {
+        "displayName": "Nav link",
+        "purpose": "Top bar links and the 'more' links, uppercase."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Buttons; the language switch, menu button and back link share the size, uppercase."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Geist Mono, uppercase. The heading of a section or of a block on a case page."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Geist Mono, uppercase. Status, availability, definition terms, field labels, dates, counts."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-stack",
+        "value": "0 -28px 60px -24px rgb(0 0 0 / 0.9)",
+        "purpose": "Home page sticky project cards only: falls upward so an arriving card separates from the one it covers."
+      },
+      {
+        "name": "ghost-outline",
+        "value": "inset 0 0 0 1px var(--line-2)",
+        "purpose": "The ghost button's 1px outline; var(--fg) on hover."
+      },
+      {
+        "name": "field-focus",
+        "value": "0 1px 0 0 var(--fg)",
+        "purpose": "Thickens a focused field's underline to 2px; var(--error) when invalid."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The one easing token (--ease): every transform and entrance."
+      },
+      {
+        "name": "state",
+        "value": "0.25s (default curve)",
+        "purpose": "Colour, background, border and underline-colour changes on hover; 0.4s on service tabs."
+      },
+      {
+        "name": "press",
+        "value": "0.35s var(--ease), scale(0.98)",
+        "purpose": "Button active state."
+      },
+      {
+        "name": "icon-nudge",
+        "value": "0.45s var(--ease), translate 3 to 6px (10px on the next-project arrow, 0.5s)",
+        "purpose": "A trailing line icon moves in its own direction on hover."
+      },
+      {
+        "name": "nav-underline",
+        "value": "0.5s var(--ease), scaleX 0 to 1 from the left",
+        "purpose": "Top bar link under hover; stays for the current page or section."
+      },
+      {
+        "name": "card-image",
+        "value": "1.4s var(--ease), scale 1.04 to 1.09",
+        "purpose": "Card image eases in while its card is hovered. Off under reduced motion."
+      },
+      {
+        "name": "hero-lines",
+        "value": "1.3s var(--ease), translateY 110% to 0, delay line index * 110ms + 150ms",
+        "purpose": "Hero title lines rise from behind a mask on load."
+      },
+      {
+        "name": "hero-fade",
+        "value": "1.2s var(--ease), opacity, 0.75s delay (top bar: 0.15s delay)",
+        "purpose": "Hero sentence, actions and availability fade in; the top bar fades in."
+      },
+      {
+        "name": "reveal",
+        "value": "opacity 0.9s, transform 1.1s (translateY 28px), filter 0.9s (blur 6px), var(--ease), neighbours 90ms apart",
+        "purpose": "Blocks enter once when they reach the viewport (Reveal)."
+      },
+      {
+        "name": "rise",
+        "value": "0.8s var(--ease), from opacity 0, translateY 16px, blur 5px, items 45ms apart",
+        "purpose": "Service panel text and pills when the tab changes."
+      },
+      {
+        "name": "tab-mark",
+        "value": "0.6s var(--ease), scale 0 to 1",
+        "purpose": "The diamond's centre fills when a service tab is selected."
+      },
+      {
+        "name": "count-up",
+        "value": "1300ms exponential ease-out, once at 60% visibility",
+        "purpose": "Stat numbers count from zero (CountUp)."
+      },
+      {
+        "name": "scroll-words",
+        "value": "scroll-linked opacity, 8-word leading edge, floor 0.38 (0.5 below 1200px wide)",
+        "purpose": "The About statement lights word by word (ScrollWords)."
+      },
+      {
+        "name": "covered-card",
+        "value": "scroll-linked: scale 1 to 0.95 from the top edge, brightness 1 to 0.45",
+        "purpose": "A sticky project card recedes while the next one covers it."
+      },
+      {
+        "name": "shot",
+        "value": "scroll-linked: crane (object-position Y), truck (object-position X), push (scale to --zoom, default 1.1, about a focus point)",
+        "purpose": "The case image is reframed inside its frame as the page scrolls (Shot)."
+      },
+      {
+        "name": "ping",
+        "value": "2.6s var(--ease) infinite, opacity 0.7 to 0, scale 1 to 3.4",
+        "purpose": "The availability dot's ring."
+      },
+      {
+        "name": "spin",
+        "value": "0.8s linear infinite",
+        "purpose": "The sending spinner."
+      },
+      {
+        "name": "page-change",
+        "value": "view transition groups 0.55s var(--ease); the project image is the shared element",
+        "purpose": "Navigation between pages, card to case."
+      },
+      {
+        "name": "scene-camera",
+        "value": "one pose per section, smoothstep between section marks, damped per frame by 1 - exp(-5.5 * dt)",
+        "purpose": "The 3D scene's camera follows scroll."
+      },
+      {
+        "name": "scene-intro",
+        "value": "2400ms exponential ease-out: camera from 1.22x distance, ring from 1.55x radius and -1.5rad",
+        "purpose": "The scene assembles around the portrait on load."
+      },
+      {
+        "name": "scene-idle",
+        "value": "ring 0.07 rad/s; pointer drift up to 0.5 / 0.28 world units, damped",
+        "purpose": "The ring turns on its own and the camera follows the mouse."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "entrances, loops and scroll-linked effects are declared only under prefers-reduced-motion: no-preference; view transitions animation: none; scene holds the hero pose and fades over 0.7 viewport of scroll",
+        "purpose": "With reduced motion all content is complete and still; hover and press transitions remain."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "stacked",
+        "value": "(max-width: 899px), (max-width: 1199px) and (orientation: portrait)"
+      },
+      {
+        "name": "skills-one-column",
+        "value": "(max-width: 479px)"
+      },
+      {
+        "name": "language-into-menu",
+        "value": "(max-width: 359px)"
+      },
+      {
+        "name": "scroll-words-contrast-floor",
+        "value": "1200px (JS)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "The main action of a view (contact, send, view project). Pale fill, dark type.",
+      "html": "<button class=\"ds-btn\">Get in touch</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 24px; border: 0; border-radius: 6px; background: var(--text); color: var(--bg); font-family: var(--font); font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: background-color 0.25s, box-shadow 0.25s, transform 0.35s var(--ease); } .ds-btn:hover { background: #fff; } .ds-btn:active { transform: scale(0.98); } .ds-btn:focus-visible { outline: 2px solid var(--fg); outline-offset: 4px; border-radius: 6px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "The second action beside a primary one (CV download, write again, open as email).",
+      "html": "<button class=\"ds-btn ds-btn-ghost\">Download CV</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 24px; border: 0; border-radius: 6px; background: var(--text); color: var(--bg); font-family: var(--font); font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: background-color 0.25s, box-shadow 0.25s, transform 0.35s var(--ease); } .ds-btn:hover { background: #fff; } .ds-btn:active { transform: scale(0.98); } .ds-btn:focus-visible { outline: 2px solid var(--fg); outline-offset: 4px; border-radius: 6px; } .ds-btn-ghost { background: transparent; color: var(--fg); box-shadow: inset 0 0 0 1px var(--line-2); } .ds-btn-ghost:hover { background: transparent; box-shadow: inset 0 0 0 1px var(--fg); }"
+    },
+    {
+      "name": "Pills",
+      "kind": "chip",
+      "refersTo": "pill",
+      "description": "Non-interactive tags for skills and stack; the small variant sits on cards and case pages.",
+      "html": "<ul class=\"ds-pills\"><li>Next.js</li><li>TypeScript</li><li>Supabase</li></ul><ul class=\"ds-pills ds-pills-small\" style=\"margin-top:16px\"><li>React</li><li>n8n</li><li>Claude API</li></ul>",
+      "css": ".ds-pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; font-family: var(--font); } .ds-pills li { padding: 7px 15px 8px; border: 1px solid var(--line-2); border-radius: 999px; color: var(--text); font-size: 0.9375rem; line-height: 1.2; } .ds-pills-small { gap: 6px; } .ds-pills-small li { padding: 5px 12px 6px; font-size: 0.8125rem; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Area filter on the projects index: outlined pill with a mono count; pressed is a pale fill.",
+      "html": "<div class=\"ds-filters\"><button class=\"ds-chip\" aria-pressed=\"true\">All <span class=\"ds-chip-n\">8</span></button><button class=\"ds-chip\" aria-pressed=\"false\">Automation <span class=\"ds-chip-n\">2</span></button></div>",
+      "css": ".ds-filters { display: flex; flex-wrap: wrap; gap: 8px; } .ds-chip { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 18px; border: 1px solid var(--line-2); border-radius: 999px; background: none; color: var(--text); font-family: var(--font); font-size: 0.9375rem; cursor: pointer; transition: color 0.25s, border-color 0.25s, background-color 0.25s; } .ds-chip:hover { border-color: var(--fg); color: var(--fg); } .ds-chip[aria-pressed=\"true\"] { border-color: var(--text); background: var(--text); color: var(--bg); } .ds-chip:focus-visible { outline: 2px solid var(--fg); outline-offset: 4px; } .ds-chip-n { font: 500 0.75rem/1 var(--mono); opacity: 0.75; }"
+    },
+    {
+      "name": "Status Tag",
+      "kind": "chip",
+      "refersTo": "status-tag",
+      "description": "Project status in mono meta type. The green dot appears only when the project has a working public link.",
+      "html": "<span class=\"ds-status ds-status-live\">Live</span> &nbsp; <span class=\"ds-status\">Shipped</span>",
+      "css": ".ds-status { display: inline-flex; align-items: center; gap: 10px; color: var(--muted); font: 500 0.75rem/1.2 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; } .ds-status-live { color: var(--text); } .ds-status-live::before { content: \"\"; width: 7px; height: 7px; border-radius: 50%; background: var(--live); }"
+    },
+    {
+      "name": "Project Card",
+      "kind": "card",
+      "refersTo": "project-card",
+      "description": "Vertical card from the projects index: image at 16:10 on a black well, title, summary, small pills, status and a primary button.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-media\"></div><div class=\"ds-card-body\"><h3 class=\"ds-card-title\">VMB Plataforma</h3><p class=\"ds-card-sum\">The brokerage's internal platform, designed from its business rules and built as one TypeScript app.</p><ul class=\"ds-pills ds-pills-small\"><li>Next.js</li><li>TypeScript</li><li>PostgreSQL</li></ul><div class=\"ds-card-foot\"><span class=\"ds-status\">Internal</span><a class=\"ds-btn\" href=\"#\">View project</a></div></div></article>",
+      "css": ".ds-card { display: flex; flex-direction: column; max-width: 34rem; overflow: hidden; border-radius: 10px; background: var(--panel); color: var(--text); font: 400 1.0625rem/1.55 var(--font); } .ds-card-media { aspect-ratio: 16 / 10; background: #000; } .ds-card-body { display: flex; flex: 1; flex-direction: column; padding: clamp(24px, 3.3vw, 48px); } .ds-card-title { margin: 0; color: var(--fg); font-size: clamp(1.6rem, 2.55vw, 2.3rem); font-weight: 300; line-height: 1.1; letter-spacing: -0.03em; } .ds-card-sum { max-width: 30em; margin: 20px 0 0; } .ds-card .ds-pills { margin-top: 24px; } .ds-card-foot { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-top: auto; padding-top: 32px; } .ds-pills { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; font-family: var(--font); } .ds-pills li { padding: 7px 15px 8px; border: 1px solid var(--line-2); border-radius: 999px; color: var(--text); font-size: 0.9375rem; line-height: 1.2; } .ds-pills-small { gap: 6px; } .ds-pills-small li { padding: 5px 12px 6px; font-size: 0.8125rem; } .ds-status { display: inline-flex; align-items: center; gap: 10px; color: var(--muted); font: 500 0.75rem/1.2 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; } .ds-status-live { color: var(--text); } .ds-status-live::before { content: \"\"; width: 7px; height: 7px; border-radius: 50%; background: var(--live); } .ds-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 24px; border: 0; border-radius: 6px; background: var(--text); color: var(--bg); font-family: var(--font); font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: background-color 0.25s, box-shadow 0.25s, transform 0.35s var(--ease); } .ds-btn:hover { background: #fff; } .ds-btn:active { transform: scale(0.98); } .ds-btn:focus-visible { outline: 2px solid var(--fg); outline-offset: 4px; border-radius: 6px; }"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Contact form field: a mono label over a single underline. Focus thickens the underline; no box, no radius.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-name\">Name</label><input id=\"ds-name\" type=\"text\" placeholder=\"Your name\" /></div><div class=\"ds-field\"><label for=\"ds-mail\">Email</label><input id=\"ds-mail\" type=\"email\" aria-invalid=\"true\" value=\"name@\" /><p class=\"ds-field-error\">Enter a valid email address.</p></div>",
+      "css": ".ds-field { display: grid; gap: 6px; max-width: 32rem; margin-bottom: 28px; font-family: var(--font); } .ds-field label { color: var(--muted); font: 500 0.75rem/1.3 var(--mono); letter-spacing: 0.14em; text-transform: uppercase; } .ds-field input { width: 100%; padding: 10px 0 12px; border: 0; border-bottom: 1px solid var(--line-2); border-radius: 0; background: transparent; color: var(--fg); font-family: inherit; font-size: 1.125rem; caret-color: var(--fg); transition: border-color 0.25s; } .ds-field input::placeholder { color: #7f888d; opacity: 1; } .ds-field input:hover { border-color: var(--muted); } .ds-field input:focus { outline: none; border-color: var(--fg); box-shadow: 0 1px 0 0 var(--fg); } .ds-field [aria-invalid=\"true\"] { border-color: var(--error); } .ds-field [aria-invalid=\"true\"]:focus { box-shadow: 0 1px 0 0 var(--error); } .ds-field-error { margin: 0; color: var(--error); font-size: 0.9375rem; }"
+    },
+    {
+      "name": "Top Bar",
+      "kind": "nav",
+      "refersTo": "lang-option-current",
+      "description": "Brand name, four uppercase links with an underline that grows from the left, and the pill language switch.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\" href=\"#\">Gustavo Fontenelle</a><nav class=\"ds-nav\"><a href=\"#\" aria-current=\"location\">About</a><a href=\"#\">Projects</a><a href=\"#\">Experience</a><a href=\"#\">Contact</a></nav><div class=\"ds-lang\"><a href=\"#\">PT</a><a href=\"#\" aria-current=\"true\">EN</a></div></header>",
+      "css": ".ds-top { display: flex; align-items: center; gap: clamp(20px, 3.2vw, 48px); height: 80px; padding-inline: 24px; background: var(--bg); font-family: var(--font); } .ds-top a { text-decoration: none; } .ds-brand { color: var(--fg); font-size: 1.25rem; font-weight: 600; letter-spacing: -0.02em; white-space: nowrap; } .ds-nav { display: flex; gap: clamp(20px, 3.2vw, 48px); margin-left: auto; } .ds-nav a { position: relative; padding: 12px 0; color: var(--text); font-size: 0.875rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.25s; } .ds-nav a::after { content: \"\"; position: absolute; inset: auto 0 6px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: left; transition: transform 0.5s var(--ease); } .ds-nav a:hover, .ds-nav a[aria-current] { color: var(--fg); } .ds-nav a:hover::after, .ds-nav a[aria-current]::after { transform: scaleX(1); } .ds-lang { display: flex; padding: 3px; border: 1px solid var(--line-2); border-radius: 999px; } .ds-lang a { display: grid; place-items: center; min-width: 42px; height: 32px; border-radius: 999px; color: var(--muted); font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.08em; transition: color 0.25s, background-color 0.25s; } .ds-lang a:hover { color: var(--fg); } .ds-lang a[aria-current=\"true\"] { background: var(--text); color: var(--bg); } .ds-top a:focus-visible { outline: 2px solid var(--fg); outline-offset: 4px; border-radius: 3px; }"
+    },
+    {
+      "name": "Service Tab",
+      "kind": "custom",
+      "refersTo": "service-tab",
+      "description": "Vertical tabs set in large light type with a diamond mark whose centre fills on selection.",
+      "html": "<div class=\"ds-svc\" role=\"tablist\"><button class=\"ds-svc-tab\" role=\"tab\" aria-selected=\"true\"><svg class=\"ds-svc-mark\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 1.5 18.5 10 10 18.5 1.5 10z\"/><path class=\"ds-in\" d=\"M10 7l3 3-3 3-3-3z\"/></svg>Web systems</button><button class=\"ds-svc-tab\" role=\"tab\" aria-selected=\"false\"><svg class=\"ds-svc-mark\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M10 1.5 18.5 10 10 18.5 1.5 10z\"/><path class=\"ds-in\" d=\"M10 7l3 3-3 3-3-3z\"/></svg>AI automation</button></div>",
+      "css": ".ds-svc { max-width: 36rem; } .ds-svc-tab { display: flex; align-items: center; gap: clamp(14px, 1.7vw, 24px); width: 100%; padding: 22px 0; border: 0; border-bottom: 1px solid var(--line-2); background: none; color: var(--muted); font: 250 clamp(1.8rem, 3.4vw, 3.05rem) / 1.1 var(--font); letter-spacing: -0.035em; text-align: left; cursor: pointer; transition: color 0.4s; } .ds-svc-tab:first-child { padding-top: 0; } .ds-svc-tab:last-child { border-bottom: 0; } .ds-svc-tab:hover, .ds-svc-tab[aria-selected=\"true\"] { color: var(--fg); } .ds-svc-tab:focus-visible { outline: 2px solid var(--fg); outline-offset: 4px; border-radius: 3px; } .ds-svc-mark { flex: none; width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.2; } .ds-svc-mark .ds-in { fill: currentColor; stroke: none; transform: scale(0); transform-origin: 50% 50%; transform-box: fill-box; transition: transform 0.6s var(--ease); } .ds-svc-tab[aria-selected=\"true\"] .ds-in { transform: scale(1); }"
+    },
+    {
+      "name": "Experience Row",
+      "kind": "custom",
+      "refersTo": "row-title",
+      "description": "One role per ruled row: title and organisation, what was done, and a right-aligned mono date.",
+      "html": "<ol class=\"ds-xp\"><li class=\"ds-xp-row\"><div><h3>Tech Lead</h3><p>VMB Invest</p></div><ul><li>Owns the roadmap of the central CRM and the internal platform.</li><li>Leads six developers and runs code review.</li></ul><p class=\"ds-xp-when\">Sep 2026 – present</p></li></ol>",
+      "css": ".ds-xp { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line-2); color: var(--text); font: 400 1.0625rem/1.55 var(--font); } .ds-xp-row { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 5fr) minmax(9.5em, auto); column-gap: 32px; align-items: baseline; padding: 28px 0; border-bottom: 1px solid var(--line); } .ds-xp-row h3 { margin: 0; color: var(--fg); font-size: 1.5rem; font-weight: 350; line-height: 1.2; letter-spacing: -0.025em; } .ds-xp-row p { margin: 6px 0 0; color: var(--muted); } .ds-xp-row ul { max-width: 34em; margin: 0; padding: 0; list-style: none; } .ds-xp-row li + li { margin-top: 10px; } .ds-xp-row .ds-xp-when { margin: 0; font: 500 0.75rem/1.4 var(--mono); letter-spacing: 0.08em; text-align: right; text-transform: uppercase; white-space: nowrap; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Orbit",
+    "overview": "A near-black page with cool pale text, very light type and hairline rules. The interface is kept quiet so that one thing can be strong: a three.js scene fixed behind the home page, in which a tilted ring of glass tiles carrying the owner's project screenshots turns around his black and white portrait. As the page scrolls, the camera moves to a new pose for each section. \"The Orbit\" names that object and nothing else; no part of the interface is themed after it.\n\nThe look was pinned by the owner: dark, minimal, his photo at the top, and visible animation with camera moves that orbit as the page scrolls. Minimal here means few elements and a lot of black, not little motion. Type is one family, Geist, at light weights and in sentence case; Geist Mono appears only in small uppercase labels, dates and status. The only chromatic colour in the interface is a green dot for a live project and for availability; project images bring the rest.\n\nDensity is low. Sections are separated by up to 184px of vertical space, large statements sit beside a narrow label column, and structure comes from 1px translucent white rules. Inner pages (the projects index and each case page) carry no 3D scene; they use the same type, rules, cards and scroll-linked image framing.",
+    "keyCharacteristics": [
+      "Near-black ground (#050607) with cool pale text; neutrals only, plus one green signal dot.",
+      "One family: Geist Variable at weights 200 to 350 for display, 400 for reading; Geist Mono Variable for small uppercase labels only.",
+      "Display type is sentence case with negative tracking; uppercase is reserved for small tracked labels and controls (1rem and under).",
+      "Structure from 1px white hairlines at 10% and 20% opacity; one panel tone (#0d0f10) for cards.",
+      "Pale filled rectangles with a 6px radius for actions; full pills for tags, filters and the language switch.",
+      "One WebGL scene, home page only, masked away from the text and driven by scroll.",
+      "All entrance and scroll motion is opt-in under `prefers-reduced-motion: no-preference`; without it the content is complete and still."
+    ],
+    "rules": [
+      {
+        "name": "The One Green Rule",
+        "body": "Green means \"this is reachable right now\": a project with a working public link, or the owner's availability. It is always a dot of 8px or less, never text, a fill, a border or a hover colour.",
+        "section": "colors"
+      },
+      {
+        "name": "The Pale Fill Rule",
+        "body": "The chosen or primary thing is a Text-coloured fill with Ground-coloured type: the primary button, the pressed filter chip, the current language, the text selection. No hue is ever used for selection or emphasis.",
+        "section": "colors"
+      },
+      {
+        "name": "The Images Bring The Colour Rule",
+        "body": "Chromatic colour enters through project screenshots, in cards, case pages and on the 3D tiles. The portrait is black and white.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light Display Rule",
+        "body": "Anything set larger than body size is weight 200 to 350, sentence case, with negative tracking. Weight 500 and above belongs to type of 1.25rem and under.",
+        "section": "typography"
+      },
+      {
+        "name": "The Small Caps Only Rule",
+        "body": "Uppercase appears only at 1rem and under, always with positive tracking (0.08em to 0.2em). A heading, title or sentence is never set in capitals.",
+        "section": "typography"
+      },
+      {
+        "name": "The Mono Is Metadata Rule",
+        "body": "Geist Mono is used at 0.78rem and under for labels, dates, status and counts. It never sets a sentence, a title or a button.",
+        "section": "typography"
+      },
+      {
+        "name": "The Label Is The Heading Rule",
+        "body": "A mono label is the heading of its section (it is the h2), placed in the left columns beside the content or directly above a list. It is not a caption stacked over a second, larger heading.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Shadow Rule",
+        "body": "The only cast shadow is the card stack's. Nothing else floats; the other two box-shadows are 1px lines.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Covered Card Rule",
+        "body": "While the next card slides over it, a sticky card scales down by up to 5% from its top edge and dims by up to 55% brightness. This is driven by scroll position, applies only in the wide layout, and is off under reduced motion.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep the ground at #050607 and build structure from 1px white rules at 10% and 20% opacity, with #0d0f10 as the only raised tone.",
+      "Do set anything larger than body text in Geist at weight 200 to 350, sentence case, with negative tracking (-0.01em to -0.04em).",
+      "Do keep uppercase for type of 1rem and under with 0.08em to 0.2em tracking, and Geist Mono for labels, dates, status and counts at 0.78rem and under.",
+      "Do mark the primary or chosen thing with a Text-coloured fill and Ground-coloured type.",
+      "Do use the radius that matches the part: 6px for buttons, 10px for cards and frames, a full pill for tags, chips and switches, none for fields.",
+      "Do keep the green dot for a project that is reachable now and for availability; list a project whose site is down without the dot and without a link.",
+      "Do let project screenshots and the black and white portrait be the only imagery, and take every number, date and role from the owner's résumé.",
+      "Do put new entrance, loop and scroll-linked motion behind `prefers-reduced-motion: no-preference`, on `cubic-bezier(0.16, 1, 0.3, 1)`, and make sure the content is complete without it.",
+      "Do keep a 2px Foreground focus outline (offset 4px) on every interactive element, and tap targets of at least 44px.",
+      "Do keep text out of the scene's visible area: the scene is masked where the title sits and dimmed to 42% or less behind any section with reading text."
+    ],
+    "donts": [
+      "Don't add a second accent or tint. Green is a dot of 8px or less; salmon is for form errors; hover, focus and selection are always neutral.",
+      "Don't set a heading, title or sentence in capitals, in a condensed face, or at a weight above 350.",
+      "Don't introduce a second typeface, or use Geist Mono for sentences, titles or buttons.",
+      "Don't build the page around a themed concept or metaphor; the owner rejected concept-driven design. The interface stays plain and the 3D scene is the single strong element.",
+      "Don't add a second 3D scene, put the scene on inner pages, or let it show at full strength behind reading text.",
+      "Don't add cast shadows beyond the card stack's, or glows, glass panels or gradient fills on interface surfaces. Gradients exist only as the top bar's scrim and the scene's fade mask; blur exists only in transit during a reveal.",
+      "Don't box a form field or round it; a field is one underline.",
+      "Don't stack a small label over a second, larger heading; a mono label is itself the section's heading.",
+      "Don't show a number, a live status or a link that the résumé or a working URL cannot back, and don't invent testimonials or client logos."
+    ]
+  }
+}
