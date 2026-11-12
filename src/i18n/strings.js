@@ -28,7 +28,7 @@ export const strings = {
       lede: "Construo sistemas web e automações com IA que tiram trabalho manual da operação.",
       contact: "Falar comigo",
       cv: "Baixar CV",
-      availability: "Aberto a projetos freelance e a propostas",
+      availability: "Aberto a projetos freelance",
       sceneAlt:
         "Retrato em preto e branco de Gustavo Fontenelle, de terno, cercado por telas dos projetos dele girando em 3D.",
       photoAlt: "Retrato em preto e branco de Gustavo Fontenelle, de terno.",
@@ -91,7 +91,7 @@ export const strings = {
     contact: {
       title: "Tem um processo manual para automatizar ou um sistema para construir?",
       intro:
-        "Estou aberto a projetos freelance e propostas. Escreva pelo formulário ou fale direto comigo.",
+        "Estou aberto a projetos freelance. Escreva pelo formulário ou fale direto comigo.",
       name: "Nome",
       namePlaceholder: "Seu nome",
       email: "E-mail",
@@ -177,7 +177,7 @@ export const strings = {
       lede: "I build web systems and AI automations that take manual work out of operations.",
       contact: "Get in touch",
       cv: "Download CV",
-      availability: "Open to freelance projects and offers",
+      availability: "Open to freelance projects",
       sceneAlt:
         "Black and white portrait of Gustavo Fontenelle in a suit, surrounded by screens of his projects rotating in 3D.",
       photoAlt: "Black and white portrait of Gustavo Fontenelle in a suit.",
@@ -239,7 +239,7 @@ export const strings = {
     },
     contact: {
       title: "Have a manual process to automate or a system to build?",
-      intro: "I'm open to freelance projects and to job offers. Write through the form or reach me directly.",
+      intro: "I'm open to freelance projects. Write through the form or reach me directly.",
       name: "Name",
       namePlaceholder: "Your name",
       email: "Email",
